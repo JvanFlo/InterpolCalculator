@@ -1,0 +1,12 @@
+Disp "Interpol Calc"
+Disp "   By JFS    "
+
+Input "X1=",A
+Input "X3=",B
+Input "Y1=",C
+Input "Y3=",D
+Disp "X2 = ?"
+Input X
+
+Disp "Y2 ="
+C+((X-A)*(D-C)/(B-A))
